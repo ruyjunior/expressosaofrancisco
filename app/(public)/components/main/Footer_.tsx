@@ -1,4 +1,5 @@
 import { AiOutlineFacebook, AiOutlineX, AiOutlineGithub, AiOutlineLinkedin, AiOutlineInstagram } from "react-icons/ai";
+import infoAPP from "app/lib/infoapp";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -6,22 +7,33 @@ const Footer = () => {
   return (
     <footer className="bg-white border-t border-gray-100 dark:bg-black shadow-sm text-gray-400 py-6 dark:border-t dark:border-gray-800">
       <div className="container mx-auto px-4 flex flex-wrap justify-center sm:justify-between items-center text-sm">
-        <p className="ml-4">&copy; {currentYear} Your Company Name. All rights reserved.</p>
+        <p className="ml-4">&copy; {currentYear} {infoAPP.name}. All rights reserved.</p>
         <div className="flex space-x-4 mt-2 mr-4 sm:mt-0">
-          <a href="#" aria-label="Facebook" className="hover:text-gray-300">
+          <a
+            href={`https://facebook.com/${infoAPP.facebook}`}
+            aria-label="Facebook"
+            className="hover:text-gray-300"
+            target="_blank"
+
+          >
             <AiOutlineFacebook className="w-5 h-5" />
           </a>
-          <a href="#" aria-label="LinkedIn" className="hover:text-gray-300">
+          <a
+            href={`https://linkedin.com/${infoAPP.linkedin}`}
+            aria-label="LinkedIn"
+            className="hover:text-gray-300"
+            target="_blank"
+          >
             <AiOutlineLinkedin className="w-5 h-5" />
           </a>
-          <a href="#" aria-label="Instagram" className="hover:text-gray-300">
+          <a
+            href={`https://instagram.com/${infoAPP.instagram}`}
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+            className="hover:text-gray-300"
+            target="_blank"
+          >
             <AiOutlineInstagram className="w-5 h-5" />
-          </a>
-          <a href="#" aria-label="X (formerly Twitter)" className="hover:text-gray-300">
-            <AiOutlineX className="w-5 h-5" />
-          </a>
-          <a href="#" aria-label="GitHub" className="hover:text-gray-300">
-            <AiOutlineGithub className="w-5 h-5" />
           </a>
         </div>
       </div>

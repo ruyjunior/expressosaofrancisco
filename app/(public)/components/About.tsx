@@ -22,7 +22,7 @@ const About = () => {
       }
       rightHalf={
         <Image
-          src="/images/Logos/logotransparente.png"
+          src="/images/logos/logotransparente.png"
           alt="section-image"
           width={500}
           height={100}

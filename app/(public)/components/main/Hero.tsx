@@ -32,7 +32,7 @@ export default function Hero() {
         <div className="flex flex-col sm:flex-row justify-center gap-4">
           {/* Contato */}
           <Link
-            href="/#contact"
+            href="/#footer"
             className="bg-orange-600 text-white px-6 py-3 rounded-md text-base font-semibold hover:bg-orange-500 transition"
           >
             Fale Conosco

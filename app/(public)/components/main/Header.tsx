@@ -8,8 +8,8 @@ export default function Header() {
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <div className="flex items-center">
           <Image
-            src="/images/Logos/logotransparente.png"
-            alt="Logo"
+            src="/images/logos/logotransparente.png"
+            alt="logo"
             width={200}
             height={200} className="mr-2" />
         </div>

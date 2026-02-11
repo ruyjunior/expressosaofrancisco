@@ -8,25 +8,25 @@ const Features = () => {
   const features = [
     {
       icon: CiDeliveryTruck,
-      imagesrc: "/images/Logos/logo.png",
+      imagesrc: "/images/logos/logo.png",
       title: "Carga Fechada",
       description: "Transporte exclusivo para um único cliente, com o veículo dedicado inteiramente à sua mercadoria, garantindo segurança e agilidade.",
     },
     {
       icon: CiDeliveryTruck,
-      imagesrc: "/images/Logos/logo.png",
+      imagesrc: "/images/logos/logo.png",
       title: "Carga Fracionada",
       description: "Serviço de transporte onde as cargas de diferentes clientes são consolidadas no mesmo veículo, otimizando custos e espaço.",
     },
     {
       icon: CiDeliveryTruck,
-      imagesrc: "/images/Logos/logo.png",
+      imagesrc: "/images/logos/logo.png",
       title: "Carga Lotação",
       description: "Veículo preenchido totalmente por mercadorias de um único cliente, ideal para grandes volumes com entrega rápida e direta.",
     },
     {
       icon: CiDeliveryTruck,
-      imagesrc: "/images/Logos/logo.png",
+      imagesrc: "/images/logos/logo.png",
       title: "Frete Expresso",
       description: "Serviço de transporte rápido e prioritário, garantindo que sua mercadoria chegue ao destino no menor tempo possível.",
     },

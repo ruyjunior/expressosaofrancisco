@@ -15,8 +15,8 @@ const Footer: React.FC = () => {
                 <div>
                     <Link href="/" className="flex items-center gap-2">
                         <Image
-                            src="/images/Logos/logotransparente.png"
-                            alt="Logo da empresa"
+                            src="/images/logos/logotransparente.png"
+                            alt="logo da empresa"
                             width={250}
                             height={250}
                             className="rounded-full"
@@ -78,10 +78,10 @@ const Footer: React.FC = () => {
                 <p>Copyright &copy; {new Date().getFullYear()} {infoAPP.name}. Todos os direitos reservados.</p>
                 <div className="flex items-center mt-10">
                     <Image
-                        src="/images/Logos/logo_dev.png"
+                        src="/images/logos/logo_dev.png"
                         width={40}
                         height={40}
-                        alt={`Logo da ${infoAPP.name}`}
+                        alt={`logo da ${infoAPP.name}`}
                         className="mr-2 rounded-md"
                     />
                 </div>

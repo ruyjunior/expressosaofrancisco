@@ -27,12 +27,13 @@ const Customers: React.FC = () => {
         <div className="flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row w-full">
             <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-6 md:mb-0 text-white dark:text-black text-center md:text-left md:w-1/3">
-              Muitos clientes satisfeitos. Isso é o que nos motiva.
+              Clientes satisfeitos. Isso é o que nos motiva.
             </h2>
             <div className="flex flex-wrap justify-center md:justify-end gap-6 md:w-2/3">
               <Image src="/images/customers/magazineluiza.png" alt="clients" width={500} height={500} className="w-20 h-20 rounded-full" />
               <Image src="/images/customers/saojoao.png" alt="clients" width={500} height={500} className="w-20 h-20 rounded-full" />
               <Image src="/images/customers/colombo.jpg" alt="clients" width={500} height={500} className="w-20 h-20 rounded-full" />
+              <Image src="/images/customers/lightsweet.png" alt="clients" width={500} height={500} className="w-20 h-20 rounded-full" />
             </div>
           </div>
         </div>

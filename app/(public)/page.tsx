@@ -9,6 +9,7 @@ import Accordion from "./components/Accordion";
 import Reviews from "./components/Reviews";
 import Download from "./components/Download";
 import About from "./components/About";
+import Insurences from "./components/Insurences";
 
 export default function Page() {
   return (
@@ -19,6 +20,7 @@ export default function Page() {
         <About />
         <Features />
         <Customers />
+        <Insurences />
       </main>
       <Footer />
     </div>
